@@ -25,7 +25,7 @@ const Contact = () => {
   ];
 
   return (
-    <section className=" py-12 px-4 sm:px-6 lg:px-8">
+    <section className=" bg-[#212121] py-12 px-4 sm:px-6 lg:px-8">
       <h2 className="text-3xl font-extrabold mb-6">Contact Me</h2>
       <div className="flex items-center ">
         {links.map((link) => (
